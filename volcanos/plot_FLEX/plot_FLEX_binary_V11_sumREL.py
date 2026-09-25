@@ -125,7 +125,7 @@ def main(argv = sys.argv):
         print (num_SPECIES, LEVEL, RELEASE, d_list, projection, depo, plotting_region, style, plot_markers)
         
         
-    savepath = FLEXPARTOutputDir
+    savepath = FLEXPARTOutputDir + "plots/"
 
     # Get something needed from header
     outputFiletype = H.unit  # This will determine name of file (conc, time, pptv)
